@@ -69,13 +69,12 @@ This project focuses on software quality assurance (SQA) for API testing, ensuri
 
 ## 📂 Project Structure
 📦 SQA API Testing
-│
-├── 📂 docs/                # Contains test case documentation (PDF, Excel)
-├── 📂 postman/             # Postman collection & environment files
-├── 📂 src/                 # Python source code for the API (if applicable)
-├── 📄 requirement.pdf      # Project requirements document
-├── 📄 .gitignore           # Git ignore file for unnecessary files
-└── 📄 README.md            # Project documentation (this file)
+    ├── 📂 docs/                # Contains test case documentation (PDF, Excel)
+    ├── 📂 postman/             # Postman collection & environment files
+    ├── 📂 src/                 # Python source code for the API (if applicable)
+    ├── 📄 requirement.pdf      # Project requirements document
+    ├── 📄 .gitignore           # Git ignore file for unnecessary files
+    └── 📄 README.md            # Project documentation (this file)
 
 
 
