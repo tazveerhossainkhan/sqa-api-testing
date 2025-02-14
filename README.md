@@ -52,6 +52,10 @@ This README follows best practices for an SQA API Testing project. Let me know i
 
 # SQA API Testing
 
+## 🧪 Test Cases
+Test case documentation can be found in the `docs/` folder.
+
+
 ## 📌 Project Overview
 This project focuses on software quality assurance (SQA) for API testing, ensuring the reliability, functionality, and security of APIs.
 
@@ -62,37 +66,10 @@ This project focuses on software quality assurance (SQA) for API testing, ensuri
 - Performance benchmarking
 
 ## 🛠️ Technologies Used
-- **Programming Language:** Python / JavaScript / Postman (Specify your tech)
-- **Testing Framework:** Jest / Mocha / PyTest (Specify)
-- **API Client:** Postman / cURL
+- **Programming Language:** Python 
+- **API Client:** Postman
 - **Version Control:** Git & GitHub
 
-## 📂 Project Structure
-📦 SQA API Testing
-    ├── 📂 docs/                # Contains test case documentation (PDF, Excel)
-    ├── 📂 postman/             # Postman collection & environment files
-    ├── 📂 src/                 # Python source code for the API (if applicable)
-    ├── 📄 requirement.pdf      # Project requirements document
-    ├── 📄 .gitignore           # Git ignore file for unnecessary files
-    └── 📄 README.md            # Project documentation (this file)
-
-
-
-## ⚙️ Installation & Setup
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/tazveerhossainkhan/sqa-api-testing.git
-📜 API Endpoints (Example)
-Method	Endpoint	Description
-GET	/api/users	Fetch all users
-POST	/api/users	Create a new user
-PUT	/api/users/:id	Update user details
-DELETE	/api/users/:id	Remove a user
-
-🛡 Security & Best Practices
-Input sanitization to prevent SQL injection
-Secure authentication & authorization
-Rate limiting & request validation
 
 📜 License
 This project is licensed under the MIT License.
