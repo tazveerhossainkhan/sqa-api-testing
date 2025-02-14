@@ -68,7 +68,14 @@ This project focuses on software quality assurance (SQA) for API testing, ensuri
 - **Version Control:** Git & GitHub
 
 ## 📂 Project Structure
-/sqa-api-testing │── tests/ # API test scripts │── reports/ # Test reports │── src/ # Source code │── .gitignore # Git ignore rules │── README.md # Project documentation
+📦 SQA API Testing
+│── 📂 docs                # Contains test case documentation (PDF, Excel)
+│── 📂 postman             # Postman collection & environment files
+│── 📂 src                 # Python source code for the API (if applicable)
+│── 📄 requirement.pdf     # Project requirements document
+│── 📄 .gitignore          # Git ignore file for unnecessary files
+│── 📄 README.md           # Project documentation (this file)
+
 
 ## ⚙️ Installation & Setup
 1. Clone the repository:
