@@ -1,0 +1,42 @@
+# Ignore Python virtual environment  
+venv/
+
+# Ignore compiled Python files  
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system files  
+.DS_Store
+Thumbs.db
+
+# Ignore Postman workspace files  
+postman/*.log
+postman/*_backup.json
+
+# Ignore IDE and editor-specific files  
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore environment/config files  
+.env
+.env.local
+secrets.json
+
+# Ignore test result files  
+reports/
+coverage/
+test-results/
+
+# Ignore logs  
+logs/
+*.log
+debug.log
+
+# Ignore unnecessary files  
+node_modules/
+dist/
+build/
